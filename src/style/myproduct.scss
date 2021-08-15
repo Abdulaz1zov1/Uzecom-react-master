@@ -1,0 +1,1367 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.nomer {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 100%;
+  margin-top: 40px;
+  color: #000000;
+}
+.tab-button {
+  width: 100%;
+  height: 50px;
+  color: white;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  background: #003466;
+}
+
+.tab-header {
+  width: 100%;
+  height: 50px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  background: #E5E5E5;
+
+  .text1 {
+    font-size: 16px;
+    line-height: 100%;
+    margin-left: 10%;
+    color: #666666;
+  }
+
+  .text2 {
+    font-size: 16px;
+    line-height: 100%;
+    margin-left: 10%;
+    color: #666666;
+  }
+
+  .text3 {
+    font-size: 16px;
+    line-height: 100%;
+    margin-left: 12%;
+    color: #666666;
+  }
+
+  .text4 {
+    font-size: 16px;
+    line-height: 100%;
+    margin-left: 10%;
+    color: #666666;
+  }
+
+  .text5 {
+    font-size: 16px;
+    line-height: 100%;
+    margin-left: 10%;
+    color: #666666;
+  }
+}
+
+.tab-menu {
+  width: 100%;
+  margin-top: 35px;
+  display: flex;
+  margin-bottom: 50px;
+
+  .tab-sec {
+    display: flex;
+    width: 26%;
+
+    .tab-text {
+      margin-top: 7px;
+      margin-left: 10px;
+
+      .title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 100%;
+        color: #000000;
+      }
+
+      p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 100%;
+        margin-top: 10px;
+        color: #000000;
+      }
+    }
+  }
+
+  .tab-sec-1 {
+    display: flex;
+    width: 24%;
+    margin-top: 10px;
+    margin-left: 10px;
+
+    .inc-0 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 35px;
+      height: 40px;
+      color: black;
+      background: #EDE9E9;
+      font-size: 25px;
+      cursor: pointer;
+    }
+
+    .inc-1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: black;
+      width: 100px;
+      height: 40px;
+      border: 1px solid #C4C4C4;
+      box-sizing: border-box;
+    }
+
+    .inc-2 {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 35px;
+      height: 40px;
+      color: white;
+      font-size: 25px;
+      background: #003466;
+    }
+  }
+
+  .tab-sec-2 {
+    width: 20%;
+    margin-top: 15px;
+    margin-left: 25px;
+
+    .solary {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 100%;
+      color: #000000;
+    }
+  }
+
+  .tab-sec-3 {
+    width: 8%;
+    margin-top: 15px;
+    margin-left: 10px;
+
+    input {
+      width: 19px;
+      height: 19px;
+    }
+  }
+
+  .tab-sec-4 {
+    width: 7%;
+    margin-left: 10px;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    color: #000000;
+  }
+  .tab-sec-5{
+    width: 5%;
+    margin-left: 2%;
+    margin-top: 10px;
+  }
+}
+
+.registr {
+  width: 100%;
+  margin-top: 50px;
+  height: 379px;
+  background: #E5E5E5;
+
+  .reg-title {
+    font-size: 20px;
+    line-height: 100%;
+    padding-top: 20px;
+    margin-left: 10px;
+    color: #000000;
+  }
+  input{
+    width: 90%;
+    margin-left: 5%;
+    height: 40px;
+    margin-top: 15px;
+  }
+}
+.chiz{
+  border: 1px solid #C4C4C4;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.qiymat{
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  .cek{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 100%;
+ width: 26%;
+   padding-left: 10%;
+    color: #003466;
+  }
+  .cek-0{
+    margin-left: 8%;
+    width:17%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    /* identical to box height, or 20px */
+
+
+    color: #000000;
+  }
+  .cek-1{
+    width: 20%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100%;
+    margin-left: 5%;
+    color: #000000;
+
+  }
+}
+.p-body{
+  margin-top: 80px;
+  width:100%;
+  height: 557px;
+  background: #EDE9E9;
+  .title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+   margin-top: 50px;
+    color: #000000;
+  }
+  .p-sec{
+    display: flex;
+    margin-top: 40px;
+    input{
+      margin-top: 10px;
+      width: 20px;
+      height: 20px;
+    }
+    .sec{
+      margin-left: 15px;
+      .sec-1{
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 100%;
+        color: #000000;
+      }
+      .sec-2{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 100%;
+        color: #666666;
+      }
+    }
+  }
+  .input-sec{
+    input{
+      background-color: white;
+      border: none;
+      padding-left: 10px;
+      width: 100%;
+      margin-top: 24px;
+      height: 39px;
+    }
+  }
+  .input-but{
+    margin-top: 70px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    .button-p{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 211px;
+      height: 40px;
+     color: white;
+      font-size: 16px;
+      background: #003466;
+    }
+    .button-p:hover{
+      background-color: white;
+      border: 2px solid  #003466;
+      color:  #003466;
+    }
+  }
+}
+.about-img{
+  width: 100%;
+  height: 438px;
+  img{
+    width: 100%;
+  }
+}
+.ab-text{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 130%;
+  margin-left: 20px;
+  width: 100%;
+  color: #000000;
+
+}
+@media screen and (max-width: 400px) {
+  .nomer {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 100%;
+    margin-top: 40px;
+    color: #000000;
+  }
+  .tab-button {
+    width: 100%;
+    height: 50px;
+    color: white;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    background: #003466;
+  }
+  .tab-header {
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    background: #E5E5E5;
+
+    .text1 {
+      font-size: 14px;
+      line-height: 100%;
+      margin-left: 3%;
+      color: #666666;
+    }
+
+    .text2 {
+      font-size: 14px;
+      line-height: 100%;
+      margin-left: 2%;
+      color: #666666;
+    }
+
+    .text3 {
+      font-size: 14px;
+      line-height: 100%;
+      margin-left: 3%;
+      color: #666666;
+    }
+
+    .text4 {
+      font-size: 14px;
+      line-height: 100%;
+      margin-left: 3%;
+      color: #666666;
+    }
+
+    .text5 {
+      font-size: 14px;
+      line-height: 100%;
+      margin-left: 2%;
+      color: #666666;
+    }
+  }
+  .tab-menu {
+    width: 100%;
+    margin-top: 35px;
+    display: flex;
+    margin-bottom: 50px;
+
+    .tab-sec {
+      display: flex;
+      width: 26%;
+
+      .img-t {
+        width: 40%;
+        margin-top: 20px;
+
+        img {
+          width: 100%;
+          object-fit: contain;
+        }
+      }
+
+      .tab-text {
+        width: 60%;
+        margin-top: 7px;
+        margin-left: 10px;
+
+        .title {
+          font-style: normal;
+          font-weight: bold;
+          font-size: 12px;
+          line-height: 100%;
+          color: #000000;
+        }
+
+        p {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 10px;
+          line-height: 100%;
+          margin-top: 10px;
+          color: #000000;
+        }
+      }
+    }
+
+    .tab-sec-1 {
+      display: flex;
+      width: 22%;
+      margin-top: 30px;
+      margin-left: 10px;
+
+      .inc-0 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20px;
+        height: 20px;
+        color: black;
+        background: #EDE9E9;
+        font-size: 12px;
+        cursor: pointer;
+      }
+
+      .inc-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        width: 60px;
+        height: 20px;
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+      }
+
+      .inc-2 {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20px;
+        height: 20px;
+        color: white;
+        font-size: 12px;
+        background: #003466;
+      }
+    }
+
+    .tab-sec-2 {
+      width: 18%;
+      margin-top: 30px;
+      margin-left: 25px;
+
+      .solary {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 100%;
+        color: #000000;
+      }
+    }
+
+    .tab-sec-3 {
+      width: 4%;
+      margin-top: 30px;
+      margin-left: 6px;
+
+      input {
+        width: 12px;
+        height: 12px;
+      }
+    }
+
+    .tab-sec-4 {
+      width: 8%;
+      margin-left: 5px;
+      margin-top: 30px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 100%;
+      color: #000000;
+    }
+    .tab-sec-5{
+      margin-top: 20px;
+      margin-left: 0px;
+      width: 5%;
+      img{
+        transform: scale(0.7);
+      }
+    }
+
+  }
+  .p-body{
+    margin-top: 80px;
+    width:100%;
+    height: 980px;
+    background: #EDE9E9;
+    .title{
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      margin-top: 50px;
+      color: #000000;
+    }
+    .p-sec{
+      display: flex;
+      margin-top: 40px;
+      input{
+        margin-top: 10px;
+        width: 20px;
+        height: 20px;
+      }
+      .sec{
+        margin-left: 15px;
+        .sec-1{
+          font-weight: bold;
+          font-size: 17px;
+          line-height: 100%;
+          color: #000000;
+        }
+        .sec-2{
+          font-style: normal;
+          font-weight: normal;
+          font-size: 13px;
+          line-height: 100%;
+          color: #666666;
+        }
+      }
+    }
+    .input-sec{
+      input{
+        background-color: white;
+        border: none;
+        padding-left: 10px;
+        width: 100%;
+        margin-top: 24px;
+        height: 39px;
+      }
+    }
+    .input-but{
+      margin-top: 70px;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      .button-p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 211px;
+        height: 40px;
+        color: white;
+        font-size: 16px;
+        background: #003466;
+      }
+      .button-p:hover{
+        background-color: white;
+        border: 2px solid  #003466;
+        color:  #003466;
+      }
+    }
+  }
+  .new-img1{
+    background-size: 150%;
+    height: 300px;
+  }
+  .ab-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    margin-left: 0px;
+    width: 100%;
+    color: #000000;
+    margin-bottom: 50px;
+
+  }
+  .about-img{
+    width: 100%;
+    height: 308px;
+    img{
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: 400px) and (max-width: 576px) {
+  .about-img{
+    width: 100%;
+    height: 408px;
+    img{
+      width: 100%;
+    }
+  }
+  .ab-text{
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    margin-left: 0px;
+    width: 100%;
+    color: #000000;
+
+  }
+  .nomer {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 100%;
+    margin-top: 40px;
+    color: #000000;
+  }
+  .tab-button {
+    width: 100%;
+    height: 50px;
+    color: white;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    background: #003466;
+  }
+  .tab-header {
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    background: #E5E5E5;
+
+    .text1 {
+      width: 26%;
+      font-size: 14px;
+      margin-left: 3%;
+      color: #666666;
+    }
+
+    .text2 {
+      font-size: 14px;
+      width: 20%;
+      margin-left: 4%;
+      color: #666666;
+    }
+
+    .text3 {
+      font-size: 14px;
+      width: 12%;
+      margin-left: 7%;
+      color: #666666;
+    }
+
+    .text4 {
+      font-size: 14px;
+      width: 10%;
+      margin-left: 3%;
+      color: #666666;
+    }
+
+    .text5 {
+      font-size: 14px;
+      width: 12%;
+      margin-left: 3%;
+      color: #666666;
+    }
+  }
+  .tab-menu {
+    width: 100%;
+    margin-top: 35px;
+    display: flex;
+    margin-bottom: 50px;
+
+    .tab-sec {
+      display: flex;
+      width: 26%;
+
+      .img-t {
+        width: 40%;
+        margin-top: 20px;
+
+        img {
+          width: 100%;
+          object-fit: contain;
+        }
+      }
+
+      .tab-text {
+        width: 60%;
+        margin-top: 7px;
+        margin-left: 10px;
+
+        .title {
+          font-style: normal;
+          font-weight: bold;
+          font-size: 12px;
+          line-height: 100%;
+          color: #000000;
+        }
+
+        p {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 10px;
+          line-height: 100%;
+          margin-top: 10px;
+          color: #000000;
+        }
+      }
+    }
+
+    .tab-sec-1 {
+      display: flex;
+      width: 24%;
+      margin-top: 30px;
+      margin-left: 10px;
+
+      .inc-0 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20px;
+        height: 20px;
+        color: black;
+        background: #EDE9E9;
+        font-size: 12px;
+        cursor: pointer;
+      }
+
+      .inc-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        width: 60px;
+        height: 20px;
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+      }
+
+      .inc-2 {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20px;
+        height: 20px;
+        color: white;
+        font-size: 12px;
+        background: #003466;
+      }
+    }
+
+    .tab-sec-2 {
+      width: 20%;
+      margin-top: 30px;
+      margin-left: 25px;
+
+      .solary {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 100%;
+        color: #000000;
+      }
+    }
+
+    .tab-sec-3 {
+      width: 10%;
+      margin-top: 30px;
+      margin-left: 6px;
+
+      input {
+        width: 12px;
+        height: 12px;
+      }
+    }
+
+    .tab-sec-4 {
+      width: 10%;
+      margin-left: 30px;
+      margin-top: 30px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 100%;
+      color: #000000;
+    }
+  }
+  .p-body{
+    margin-top: 80px;
+    width:100%;
+    height: 980px;
+    background: #EDE9E9;
+    .title{
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      margin-top: 50px;
+      color: #000000;
+    }
+    .p-sec{
+      display: flex;
+      margin-top: 40px;
+      input{
+        margin-top: 10px;
+        width: 20px;
+        height: 20px;
+      }
+      .sec{
+        margin-left: 15px;
+        .sec-1{
+          font-weight: bold;
+          font-size: 17px;
+          line-height: 100%;
+          color: #000000;
+        }
+        .sec-2{
+          font-style: normal;
+          font-weight: normal;
+          font-size: 13px;
+          line-height: 100%;
+          color: #666666;
+        }
+      }
+    }
+    .input-sec{
+      input{
+        background-color: white;
+        border: none;
+        padding-left: 10px;
+        width: 100%;
+        margin-top: 24px;
+        height: 39px;
+      }
+    }
+    .input-but{
+      margin-top: 70px;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      .button-p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 211px;
+        height: 40px;
+        color: white;
+        font-size: 16px;
+        background: #003466;
+      }
+      .button-p:hover{
+        background-color: white;
+        border: 2px solid  #003466;
+        color:  #003466;
+      }
+    }
+  }
+  .new-img1{
+    background-size: 150%;
+    height: 300px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px){
+  .about-img{
+    width: 100%;
+    height: 408px;
+    img{
+      width: 100%;
+    }
+  }
+  .ab-text{
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    margin-left: 0px;
+    width: 100%;
+    color: #000000;
+
+  }
+  .nomer {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 100%;
+    margin-top: 40px;
+    color: #000000;
+  }
+  .tab-button {
+    width: 100%;
+    height: 50px;
+    color: white;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    background: #003466;
+  }
+  .tab-header {
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    background: #E5E5E5;
+
+    .text1 {
+      width: 26%;
+      font-size: 14px;
+      margin-left: 3%;
+      color: #666666;
+    }
+
+    .text2 {
+      font-size: 14px;
+      width: 20%;
+      margin-left: 4%;
+      color: #666666;
+    }
+
+    .text3 {
+      font-size: 14px;
+      width: 12%;
+      margin-left: 7%;
+      color: #666666;
+    }
+
+    .text4 {
+      font-size: 14px;
+      width: 10%;
+      margin-left: 3%;
+      color: #666666;
+    }
+
+    .text5 {
+      font-size: 14px;
+      width: 12%;
+      margin-left: 3%;
+      color: #666666;
+    }
+  }
+  .tab-menu {
+    width: 100%;
+    margin-top: 35px;
+    display: flex;
+    margin-bottom: 50px;
+
+    .tab-sec {
+      display: flex;
+      width: 26%;
+
+      .img-t {
+        width: 40%;
+        margin-top: 20px;
+
+        img {
+          width: 100%;
+          object-fit: contain;
+        }
+      }
+
+      .tab-text {
+        width: 60%;
+        margin-top: 7px;
+        margin-left: 10px;
+
+        .title {
+          font-style: normal;
+          font-weight: bold;
+          font-size: 12px;
+          line-height: 100%;
+          color: #000000;
+        }
+
+        p {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 10px;
+          line-height: 100%;
+          margin-top: 10px;
+          color: #000000;
+        }
+      }
+    }
+
+    .tab-sec-1 {
+      display: flex;
+      width: 24%;
+      margin-top: 30px;
+      margin-left: 10px;
+
+      .inc-0 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20px;
+        height: 20px;
+        color: black;
+        background: #EDE9E9;
+        font-size: 12px;
+        cursor: pointer;
+      }
+
+      .inc-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        width: 60px;
+        height: 20px;
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+      }
+
+      .inc-2 {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20px;
+        height: 20px;
+        color: white;
+        font-size: 12px;
+        background: #003466;
+      }
+    }
+
+    .tab-sec-2 {
+      width: 20%;
+      margin-top: 30px;
+      margin-left: 25px;
+
+      .solary {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 100%;
+        color: #000000;
+      }
+    }
+
+    .tab-sec-3 {
+      width: 10%;
+      margin-top: 30px;
+      margin-left: 6px;
+
+      input {
+        width: 12px;
+        height: 12px;
+      }
+    }
+
+    .tab-sec-4 {
+      width: 10%;
+      margin-left: 30px;
+      margin-top: 30px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 100%;
+      color: #000000;
+    }
+  }
+  .p-body{
+    margin-top: 80px;
+    width:100%;
+    height: 980px;
+    background: #EDE9E9;
+    .title{
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      margin-top: 50px;
+      color: #000000;
+    }
+    .p-sec{
+      display: flex;
+      margin-top: 40px;
+      input{
+        margin-top: 10px;
+        width: 20px;
+        height: 20px;
+      }
+      .sec{
+        margin-left: 15px;
+        .sec-1{
+          font-weight: bold;
+          font-size: 17px;
+          line-height: 100%;
+          color: #000000;
+        }
+        .sec-2{
+          font-style: normal;
+          font-weight: normal;
+          font-size: 13px;
+          line-height: 100%;
+          color: #666666;
+        }
+      }
+    }
+    .input-sec{
+      input{
+        background-color: white;
+        border: none;
+        padding-left: 10px;
+        width: 100%;
+        margin-top: 24px;
+        height: 39px;
+      }
+    }
+    .input-but{
+      margin-top: 70px;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      .button-p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 211px;
+        height: 40px;
+        color: white;
+        font-size: 16px;
+        background: #003466;
+      }
+      .button-p:hover{
+        background-color: white;
+        border: 2px solid  #003466;
+        color:  #003466;
+      }
+    }
+  }
+  .new-img1{
+    background-size: 150%;
+    height: 300px;
+  }
+}
+@media (min-width: 767px) and (max-width: 1000px){
+  .tab-button {
+    width: 100%;
+    height: 50px;
+    color: white;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    background: #003466;
+  }
+  .tab-header {
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    background: #E5E5E5;
+
+    .text1 {
+      width: 26%;
+      font-size: 14px;
+      margin-left: 3%;
+      color: #666666;
+    }
+
+    .text2 {
+      font-size: 14px;
+      width: 20%;
+      margin-left: 4%;
+      color: #666666;
+    }
+
+    .text3 {
+      font-size: 14px;
+      width: 12%;
+      margin-left: 7%;
+      color: #666666;
+    }
+
+    .text4 {
+      font-size: 14px;
+      width: 10%;
+      margin-left: 3%;
+      color: #666666;
+    }
+
+    .text5 {
+      font-size: 14px;
+      width: 12%;
+      margin-left: 3%;
+      color: #666666;
+    }
+  }
+  .tab-menu {
+    width: 100%;
+    margin-top: 35px;
+    display: flex;
+    margin-bottom: 50px;
+
+    .tab-sec {
+      display: flex;
+      width: 26%;
+
+      .img-t {
+        width: 40%;
+        margin-top: 20px;
+
+        img {
+          width: 100%;
+          object-fit: contain;
+        }
+      }
+
+      .tab-text {
+        width: 60%;
+        margin-top: 7px;
+        margin-left: 10px;
+
+        .title {
+          font-style: normal;
+          font-weight: bold;
+          font-size: 12px;
+          line-height: 100%;
+          color: #000000;
+        }
+
+        p {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 10px;
+          line-height: 100%;
+          margin-top: 10px;
+          color: #000000;
+        }
+      }
+    }
+
+    .tab-sec-1 {
+      display: flex;
+      width: 24%;
+      margin-top: 30px;
+      margin-left: 10px;
+
+      .inc-0 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20px;
+        height: 20px;
+        color: black;
+        background: #EDE9E9;
+        font-size: 12px;
+        cursor: pointer;
+      }
+
+      .inc-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        width: 60px;
+        height: 20px;
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+      }
+
+      .inc-2 {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20px;
+        height: 20px;
+        color: white;
+        font-size: 12px;
+        background: #003466;
+      }
+    }
+
+    .tab-sec-2 {
+      width: 20%;
+      margin-top: 30px;
+      margin-left: 25px;
+
+      .solary {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 100%;
+        color: #000000;
+      }
+    }
+
+    .tab-sec-3 {
+      width: 10%;
+      margin-top: 30px;
+      margin-left: 6px;
+
+      input {
+        width: 12px;
+        height: 12px;
+      }
+    }
+
+    .tab-sec-4 {
+      width: 10%;
+      margin-left: 30px;
+      margin-top: 30px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 100%;
+      color: #000000;
+    }
+  }
+  .registr {
+    width: 100%;
+    margin-top: 50px;
+height: 420px;
+    background: #E5E5E5;
+
+    .reg-title {
+      font-size: 20px;
+      line-height: 100%;
+      padding-top: 20px;
+      margin-left: 10px;
+      color: #000000;
+    }
+    input{
+      width: 90%;
+      margin-left: 5%;
+      height: 40px;
+      margin-top: 15px;
+    }
+  }
+}
